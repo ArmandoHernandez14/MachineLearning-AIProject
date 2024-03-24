@@ -3,8 +3,9 @@ import tensorflow as tf
 from keras import layers, models
 from keras.preprocessing.image import ImageDataGenerator
 
+# Getting Data
 _URL = 'https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip'
-path_to_zip = tf.keras.utils.get_file('cats_and_dogs.zip', origin=_URL, extract=True)
+path_to_zip = "/Users/armandohernandez/cats_and_dogs_filtered"
 PATH = path_to_zip.replace('.zip', '')
 
 # Setting up Image Data Generators
