@@ -18,6 +18,4 @@ Steps to Approach the problem
 5) Training the model
     - Feed the training data to the model. 
     - The model learns to associate images and labels.
-    - You ask the model to make predictions about a test set—in this example, the test_images array.
-    - Verify that the predictions match the labels from the test_labels array.
 6) Evaluating the model
