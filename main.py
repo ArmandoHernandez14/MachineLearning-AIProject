@@ -100,6 +100,6 @@ print(f"Training accuracy: {acc[-1]}, Validation accuracy: {val_acc[-1]}")
 
 
 # Save the model 
-  # The trained model is saved to the file 'my_model.keras' using the model.save method for later use or further evaluation
+  # The trained model is saved to the file 'my_model.keras' using the model.save method for later use or further evaluation.
 model.save('my_model.keras')
 
